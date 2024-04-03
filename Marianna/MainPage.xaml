@@ -15,11 +15,14 @@
 
        <Frame BackgroundColor="Pink"
           CornerRadius="15"
-          Grid.Row="0">
+          Grid.Row="0"
+          HeightRequest="150"
+          WidthRequest="250"
+          BorderColor="#f571bc">
 
           <Grid>
               <Grid.ColumnDefinitions>
-              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="40"/>
               <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -28,10 +31,21 @@
              <RowDefinition Height="*"/>
              </Grid.RowDefinitions>
 
-            <ProgressBar x:Name="progressBarFome"
+            <ProgressBar x:Name="Fome"
+              ProgressColor="Red"
+              Grid.Row="0"
+              Grid.Column="1"/>
+
+            <ProgressBar x:Name="agua"
               ProgressColor="Red"
               Grid.Row="1"
               Grid.Column="1"/>
+
+              <ProgressBar x:Name="alegria"
+              ProgressColor="Red"
+              Grid.Row="2"
+              Grid.Column="1"/>
+
           </Grid>
 
         </Frame>  
