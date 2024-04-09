@@ -12,7 +12,7 @@ public partial class MainPage : ContentPage
 
 	void Comer (object sender, EventArgs args)
 	{
-
+       
 	}
 
 	void Beber (object sender, EventArgs args)
