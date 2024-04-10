@@ -106,7 +106,14 @@
            Clicked="Mudar"
            Grid.Row="3"/>
           </Grid>
-        </Frame>  
+        </Frame> 
+
+        <Image x:Name="animais"
+         Grid.Row="2"
+         VerticalOptions="End"
+         HorizontalOptions="Center"/>
+
    </Grid>
+   
 
 </ContentPage>
