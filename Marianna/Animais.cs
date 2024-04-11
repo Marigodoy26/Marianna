@@ -1,7 +1,6 @@
 namespace Marianna;
 
 public class Animais 
-
 {
     protected double fome;
 
@@ -9,14 +8,16 @@ public class Animais
 
     protected double sede;
 
- public Animais
+    protected string Animaisfoto;
+
+ public Animais()
  {
   fome = 0;
   felicidade = 0;
-  sede = 0
+  sede = 0;
  }
  
-   void SetComer ()
+   public void Setcomer (double f)
 	{
        if(f< 0)
         fome= 0;
@@ -27,7 +28,7 @@ public class Animais
        
 	}
 
-	void SetBeber ()
+	public void Setbeber (double s)
 	{
 		if(s< 0)
         fome= 0;
@@ -37,7 +38,7 @@ public class Animais
        sede= s;
 	}
 
-	void SetBrincar ()
+	public void Setbrincar (double fe)
 	{
 		if(fe< 0)
         felicidade= 0;
@@ -54,18 +55,18 @@ public class Animais
     
     public double Getbeber()
     {
-        return beber;
+        return sede;
     }
 
     public double Getbrincar()
     {
-        return brincar;
+        return felicidade;
     }
 
-     protected string Animaisdesing()
-    void Getimagem (object sender, EventArgs args)
+    
+    public string Getimagem (object sender, EventArgs args)
 	{
-		return Animaisdesing;
+		return Animaisfoto;
 	}
 }
 

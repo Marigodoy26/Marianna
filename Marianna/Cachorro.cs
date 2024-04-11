@@ -7,6 +7,6 @@ public class Cachorro : Animais
         fome = 0.1;
         sede = 0.1;
         felicidade = 0.1;
-        Animaisdesign = "cachorro.png"
+        Animaisfoto = "cachorro.png";
     }
 }

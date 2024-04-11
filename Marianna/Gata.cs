@@ -1,11 +1,12 @@
 namespace Marianna;
 
-public class Gata 
+public class Gata : Animais 
 {
-
-    protected double fome;
-
-    protected double felicidade;
-
-    protected double sede;
+    public Gata () : base()
+    {
+        fome = 0.1;
+        sede = 0.1;
+        felicidade = 0.1;
+        Animaisfoto = "gatabranca.png";
+    }
 }
